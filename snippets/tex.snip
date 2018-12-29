@@ -1,0 +1,11 @@
+snippet figureINC
+abbr figureINC
+alias \begin{figure} \figure
+    \begin{figure}[htbp]
+        \centering
+        \INCFIGH{\dir/${1}.pdf}{\linewidth}
+        \caption{${2}}
+        \label{fig:${3}}
+    \end{figure}
+
+
